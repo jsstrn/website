@@ -17,6 +17,11 @@ header h1 {
   margin-bottom: 0;
 }
 
+header img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
 .flex-col-center {
   display: flex;
   flex-direction: column;
@@ -46,11 +51,6 @@ header h1 {
 .main {
   border-bottom: 0.01px solid grey;
   margin-bottom: 2rem;
-}
-
-header img {
-  width: 10rem;
-  border-radius: 50%;
 }
 
 .about,
