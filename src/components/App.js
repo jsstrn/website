@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <React.Fragment className="App">
+    <React.Fragment>
       <Header />
       <Social />
       <About />
