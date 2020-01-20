@@ -10,7 +10,7 @@ function Header() {
         src="https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-male-5-512.png"
       />
       <h1>Jesstern Rays</h1>
-      <p>Software Engineer at ThoughtWorks</p>
+      <p>Software Engineer</p>
     </header>
   );
 }
@@ -26,30 +26,32 @@ function About() {
       </h2>
       <div className="about">
         <p>
-          Jesstern delivers quality software through test driven development and
-          clean code principles.
+          I believe in delivering quality software through test driven
+          development and clean code.
         </p>
         <p>
-          Jesstern loves nature walks, yoga by the beach, and beautiful sunsets.
+          I love nature walks, yoga by the beach, and beautiful sunsets. I also
+          like to play board games with friends.
         </p>
+        <p>I'm also a big fan of emojis.</p>
       </div>
     </section>
   );
 }
 
-function Project({ title, description }) {
+function Project({title, description, links: {source, live}}) {
   return (
     <div className="project">
       <header>
         <h3>{title}</h3>
         <div className="icons">
-          <a href="/#">
+          <a href={source}>
             <img
               alt="project source code"
               src="https://img.icons8.com/small/64/000000/code-fork.png"
             />
           </a>
-          <a href="/#">
+          <a href={live}>
             <img
               alt="project website"
               src="https://img.icons8.com/small/64/000000/web-design.png"
@@ -64,7 +66,8 @@ function Project({ title, description }) {
 
 Project.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  description: PropTypes.string.isRequired,
+  links: PropTypes.object.isRequired
 };
 
 function Projects() {
@@ -73,13 +76,40 @@ function Projects() {
       id: 1,
       title: "Daily Dad Jokes",
       description:
-        "Dad jokes delivered to you everyday rain or shine powered by event-driven serverless lambdas."
+        "Dad jokes delivered to you everyday rain or shine powered by event-driven serverless lambdas.",
+      links: {
+        source: "/#",
+        live: "/#"
+      }
     },
     {
       id: 2,
       title: "BBC Earth Daily",
       description:
-        "BBC Earth videos sourced from YouTube delivered daily and powered by event-driven serverless lambdas."
+        "BBC Earth videos sourced from YouTube delivered daily and powered by event-driven serverless lambdas.",
+      links: {
+        source: "/#",
+        live: "/#"
+      }
+    },
+    {
+      id: 3,
+      title: "dotfiles",
+      description:
+        "A personal configuration for macOS built with Bash scripts.",
+      links: {
+        source: "/#",
+        live: "/#"
+      }
+    },
+    {
+      id: 4,
+      title: "jsstrn.me",
+      description: "The personal website of Jesstern Rays built in React.",
+      links: {
+        source: "/#",
+        live: "/#"
+      }
     }
   ];
 
@@ -95,7 +125,12 @@ function Projects() {
       {projects &&
         projects.map(p => {
           return (
-            <Project key={p.id} title={p.title} description={p.description} />
+            <Project
+              key={p.id}
+              title={p.title}
+              description={p.description}
+              links={p.links}
+            />
           );
         })}
     </section>
@@ -105,6 +140,9 @@ function Projects() {
 function Footer() {
   return (
     <footer className="flex">
+      <span role="img" aria-label="Waving Hand">
+        🕺
+      </span>
       <p>Lovingly designed and developed by Jesstern Rays</p>
       <p>Copyright © Jesstern Rays · All rights reserved</p>
     </footer>
