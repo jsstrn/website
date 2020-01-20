@@ -4,7 +4,7 @@ import "./App.css";
 
 function Header() {
   return (
-    <header className="main flex">
+    <header className="main flex-col-center">
       <img
         alt="Jesstern Rays"
         src="https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-male-5-512.png"
@@ -15,9 +15,32 @@ function Header() {
   );
 }
 
+function Social() {
+  return (
+    <section className="social">
+      <img
+        alt="telegram"
+        src="https://img.icons8.com/windows/64/000000/telegram-app.png"
+      ></img>
+      <img
+        alt="github"
+        src="https://img.icons8.com/windows/64/000000/github.png"
+      ></img>
+      <img
+        alt="twitter"
+        src="https://img.icons8.com/windows/64/000000/twitter.png"
+      ></img>
+      <img
+        alt="email"
+        src="https://img.icons8.com/windows/64/000000/email.png"
+      ></img>
+    </section>
+  );
+}
+
 function About() {
   return (
-    <section className="flex">
+    <section className="flex-col-center">
       <h2>
         About{" "}
         <span role="img" aria-label="Waving Hand">
@@ -31,9 +54,8 @@ function About() {
         </p>
         <p>
           I love nature walks, yoga by the beach, and beautiful sunsets. I also
-          like to play board games with friends.
+          like to play board games and emojis.
         </p>
-        <p>I'm also a big fan of emojis.</p>
       </div>
     </section>
   );
@@ -114,7 +136,7 @@ function Projects() {
   ];
 
   return (
-    <section className="flex">
+    <section className="flex-col-center">
       <h2>
         Projects{" "}
         <span role="img" aria-label="Building Construction">
@@ -139,7 +161,7 @@ function Projects() {
 
 function Footer() {
   return (
-    <footer className="flex">
+    <footer className="flex-col-center">
       <span role="img" aria-label="Waving Hand">
         🕺
       </span>
@@ -153,8 +175,10 @@ function App() {
   return (
     <React.Fragment className="App">
       <Header />
+      <Social />
       <About />
       <Projects />
+      <Social />
       <Footer />
     </React.Fragment>
   );
