@@ -77,8 +77,12 @@ footer {
   margin: 2rem auto 1rem;
 }
 
+footer span {
+  font-size: 1.5rem;
+}
+
 footer p {
-  font-size: 0.5em;
+  font-size: 0.7rem;
   line-height: 0.1em;
   color: grey;
 }
