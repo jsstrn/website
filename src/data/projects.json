@@ -6,8 +6,8 @@
     "description":
       "Dad jokes delivered to you everyday rain or shine powered by event-driven serverless lambdas.",
     "links": {
-      "source": "/#",
-      "live": "/#"
+      "source": "",
+      "live": "https://t.me/DailyDadJokes"
     }
   },
   {
@@ -17,28 +17,28 @@
     "description":
       "BBC Earth videos sourced from YouTube delivered daily and powered by event-driven serverless lambdas.",
     "links": {
-      "source": "/#",
-      "live": "/#"
+      "source": "https://github.com/jsstrn/bbc-earth-daily",
+      "live": "https://t.me/BBCEarthDaily"
     }
   },
   {
     "id": 3,
     "title": "dotfiles",
     "technologies": "bash scripts, homebrew bundle, stow",
-    "description": "A personal configuration for macOS built with Bash scripts.",
+    "description": "Set up your macOS machine just the way you like it.",
     "links": {
-      "source": "/#",
-      "live": "/#"
+      "source": "https://github.com/jsstrn/dotfiles",
+      "live": ""
     }
   },
   {
     "id": 4,
-    "title": "jsstrn.me",
+    "title": "Personal website",
     "technologies": "react, styled-components",
     "description": "The personal website of Jesstern Rays.",
     "links": {
-      "source": "/#",
-      "live": "/#"
+      "source": "https://github.com/jsstrn/website",
+      "live": "https://jsstrn.xyz"
     }
   }
 ]

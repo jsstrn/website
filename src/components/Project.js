@@ -1,23 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Project({
-  title,
-  description,
-  technologies,
-  links: { source, live }
-}) {
+function Project({ title, description, technologies, links }) {
+  const renderIcon = (link, icon) => {
+    return (
+      link && (
+        <a href={link}>
+          <img alt="project icon" src={icon} />
+        </a>
+      )
+    );
+  };
+
   return (
     <div className="project">
       <header>
         <h3>{title}</h3>
         <div className="icons">
-          <a href={source}>
-            <img alt="project source code" src="images/fork.png" />
-          </a>
-          <a href={live}>
-            <img alt="project website" src="images/web.png" />
-          </a>
+          {renderIcon(links.source, "images/fork.png")}
+          {renderIcon(links.live, "images/web.png")}
         </div>
       </header>
       <p>{description}</p>
