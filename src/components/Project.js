@@ -8,16 +8,10 @@ function Project({ title, description, links: { source, live } }) {
         <h3>{title}</h3>
         <div className="icons">
           <a href={source}>
-            <img
-              alt="project source code"
-              src="https://img.icons8.com/small/64/000000/code-fork.png"
-            />
+            <img alt="project source code" src="images/fork.png" />
           </a>
           <a href={live}>
-            <img
-              alt="project website"
-              src="https://img.icons8.com/small/64/000000/web-design.png"
-            />
+            <img alt="project website" src="images/web.png" />
           </a>
         </div>
       </header>
