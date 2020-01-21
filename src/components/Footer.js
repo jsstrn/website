@@ -9,7 +9,9 @@ function Footer() {
       <img
         src={image}
         onMouseEnter={() => setImageSource("/images/dancer.gif")}
+        onTouchStart={() => setImageSource("/images/dancer.gif")}
         onMouseLeave={() => setImageSource("/images/dancer.png")}
+        onTouchEnd={() => setImageSource("/images/dancer.png")}
       />
       <p>Handcrafted by Jesstern Rays</p>
       <p>Copyright © {year} Jesstern Rays · All rights reserved</p>
