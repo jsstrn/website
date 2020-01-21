@@ -6,13 +6,7 @@ function Footer() {
 
   return (
     <footer className="flex-col-center">
-      <img
-        src={image}
-        onMouseEnter={() => setImageSource("/images/dancer.gif")}
-        onTouchStart={() => setImageSource("/images/dancer.gif")}
-        onMouseLeave={() => setImageSource("/images/dancer.png")}
-        onTouchEnd={() => setImageSource("/images/dancer.png")}
-      />
+      <img src={image} onClick={() => setImageSource("/images/dancer.gif")} />
       <p>Handcrafted by Jesstern Rays</p>
       <p>Copyright © {year} Jesstern Rays · All rights reserved</p>
     </footer>
