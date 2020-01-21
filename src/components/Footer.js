@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Footer() {
   const year = new Date().getFullYear();
+  const [image, setImageSource] = useState("/images/dancer.png");
+
   return (
     <footer className="flex-col-center">
-      <span role="img" aria-label="Waving Hand">
-        🕺
-      </span>
+      <img
+        src={image}
+        onMouseEnter={() => setImageSource("/images/dancer.gif")}
+        onMouseLeave={() => setImageSource("/images/dancer.png")}
+      />
       <p>Handcrafted by Jesstern Rays</p>
       <p>Copyright © {year} Jesstern Rays · All rights reserved</p>
     </footer>

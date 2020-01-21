@@ -77,8 +77,9 @@ footer {
   margin: 2rem auto 1rem;
 }
 
-footer span {
-  font-size: 1.5rem;
+footer img {
+  padding: 0.2rem 1.5rem;
+  width: 1.5rem;
 }
 
 footer p {
