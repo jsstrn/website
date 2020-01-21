@@ -82,18 +82,3 @@ header img {
 .project .technologies span {
   font-weight: bold;
 }
-
-footer {
-  margin: 2rem auto 1rem;
-}
-
-footer img {
-  padding: 0.2rem 1.5rem;
-  width: 1.5rem;
-}
-
-footer p {
-  font-size: 0.7rem;
-  line-height: 0.1em;
-  color: grey;
-}
