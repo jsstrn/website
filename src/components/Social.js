@@ -4,7 +4,7 @@ function Social() {
   return (
     <section className="social">
       <a href="https://t.me/jsstrn">
-        <img alt="telegram" src="images/telegram-app.png"></img>
+        <img alt="telegram" src="images/telegram.png"></img>
       </a>
       <a href="https://github.com/jsstrn">
         <img alt="github" src="images/github.png"></img>
