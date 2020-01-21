@@ -19,6 +19,7 @@ function ProjectList() {
               key={p.id}
               title={p.title}
               description={p.description}
+              technologies={p.technologies}
               links={p.links}
             />
           );

@@ -1,7 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Project({ title, description, links: { source, live } }) {
+function Project({
+  title,
+  description,
+  technologies,
+  links: { source, live }
+}) {
   return (
     <div className="project">
       <header>
@@ -16,6 +21,10 @@ function Project({ title, description, links: { source, live } }) {
         </div>
       </header>
       <p>{description}</p>
+      <p className="technologies">
+        <span>technologies: </span>
+        {technologies}
+      </p>
     </div>
   );
 }
@@ -23,6 +32,7 @@ function Project({ title, description, links: { source, live } }) {
 Project.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  technologies: PropTypes.string.isRequired,
   links: PropTypes.object.isRequired
 };
 
