@@ -53,6 +53,16 @@
   },
   {
     "id": 6,
+    "title": "katas",
+    "technologies": "javascript, jest",
+    "description": "Coding katas to sharpen your programming skills",
+    "links": {
+      "source": "https://github.com/jsstrn/katas",
+      "live": ""
+    }
+  },
+  {
+    "id": 7,
     "title": "Personal website",
     "technologies": "react, styled-components",
     "description": "The personal website of Jesstern Rays.",
