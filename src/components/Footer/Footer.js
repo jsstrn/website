@@ -1,27 +1,7 @@
 import React, { useState } from "react";
-import styled, { css } from "styled-components";
-
-const containerStyle = css`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-const Container = styled.footer`
-  ${containerStyle}
-  margin: 2rem auto 1rem;
-`;
-
-const Image = styled.img`
-  padding: 0.2rem 1.5rem;
-  width: 1.5rem;
-`;
-
-const Text = styled.p`
-  font-size: 0.7rem;
-  line-height: 0.1em;
-  color: grey;
-`;
+import Text from "./Text";
+import Image from "./Image";
+import Container from "./Container";
 
 function Footer() {
   const year = new Date().getFullYear();
