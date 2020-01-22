@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "telegram",
+    "icon": "telegram.png",
+    "link": "https://t.me/jsstrn"
+  },
+  {
+    "id": 2,
+    "name": "github",
+    "icon": "github.png",
+    "link": "https://github.com/jsstrn"
+  },
+  {
+    "id": 3,
+    "name": "twitter",
+    "icon": "twitter.png",
+    "link": "https://twitter.com/jsstrn"
+  },
+  {
+    "id": 4,
+    "name": "email",
+    "icon": "email.png",
+    "link": "mailto:hello@jsstrn.me"
+  }
+]
