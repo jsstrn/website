@@ -33,6 +33,26 @@
   },
   {
     "id": 4,
+    "title": "air",
+    "technologies": "node.js, cli, npm",
+    "description": "A simple CLI tool to check the air quality index for your location",
+    "links": {
+      "source": "https://github.com/jsstrn/air",
+      "live": "https://www.npmjs.com/package/@jsstrn/air"
+    }
+  },
+  {
+    "id": 5,
+    "title": "about",
+    "technologies": "node.js, cli, npm",
+    "description": "A simple CLI tool to tell you more about me",
+    "links": {
+      "source": "https://github.com/jsstrn/about",
+      "live": "https://www.npmjs.com/package/@jsstrn/about"
+    }
+  },
+  {
+    "id": 6,
     "title": "Personal website",
     "technologies": "react, styled-components",
     "description": "The personal website of Jesstern Rays.",
