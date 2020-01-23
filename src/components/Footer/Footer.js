@@ -11,7 +11,11 @@ function Footer() {
     <Container>
       <Image src={image} onClick={() => setImageSource("/images/dancer.gif")} />
       <Text>Handcrafted by Jesstern Rays</Text>
-      <Text>Copyright © {year} Jesstern Rays · All rights reserved</Text>
+      <Text>
+        Copyright © {year} Jesstern Rays · All rights reserved · Icons by{" "}
+        <a href="https://icons8.com">Icons8</a> · Emoji by{" "}
+        <a href="https://www.joypixels.com/">JoyPixels</a>
+      </Text>
     </Container>
   );
 }
