@@ -9,7 +9,11 @@ function Footer() {
 
   return (
     <Container>
-      <Image src={image} onClick={() => setImageSource("/images/dancer.gif")} />
+      <Image
+        alt="dancer"
+        src={image}
+        onClick={() => setImageSource("/images/dancer.gif")}
+      />
       <Text>Handcrafted by Jesstern Rays</Text>
       <Text>
         Copyright © {year} Jesstern Rays · All rights reserved · Icons by{" "}
