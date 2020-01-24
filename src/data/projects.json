@@ -35,7 +35,7 @@
     "id": 4,
     "title": "air",
     "technologies": "node.js, cli, npm",
-    "description": "A simple CLI tool to check the air quality index for your location",
+    "description": "A simple CLI tool to check the air quality index for your location.",
     "links": {
       "source": "https://github.com/jsstrn/air",
       "live": "https://www.npmjs.com/package/@jsstrn/air"
@@ -45,7 +45,7 @@
     "id": 5,
     "title": "about",
     "technologies": "node.js, cli, npm",
-    "description": "A simple CLI tool to tell you more about me",
+    "description": "A simple CLI tool to tell you more about me.",
     "links": {
       "source": "https://github.com/jsstrn/about",
       "live": "https://www.npmjs.com/package/@jsstrn/about"
