@@ -10,6 +10,9 @@ const Container = styled.header`
 const Image = styled.img`
   width: 10rem;
   border-radius: 50%;
+  &:hover {
+    filter: grayscale(1);
+  }
 `;
 
 const Heading = styled.h1`
