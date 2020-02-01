@@ -20,45 +20,5 @@
       "source": "https://github.com/jsstrn/bbc-earth-daily",
       "live": "https://t.me/BBCEarthDaily"
     }
-  },
-  {
-    "id": 3,
-    "title": "dotfiles",
-    "technologies": "bash scripts, homebrew bundle, stow",
-    "description": "Set up your macOS machine just the way you like it.",
-    "links": {
-      "source": "https://github.com/jsstrn/dotfiles",
-      "live": ""
-    }
-  },
-  {
-    "id": 4,
-    "title": "air",
-    "technologies": "node.js, cli, npm",
-    "description": "A simple CLI tool to check the air quality index for your location.",
-    "links": {
-      "source": "https://github.com/jsstrn/air",
-      "live": "https://www.npmjs.com/package/@jsstrn/air"
-    }
-  },
-  {
-    "id": 5,
-    "title": "about",
-    "technologies": "node.js, cli, npm",
-    "description": "A simple CLI tool to tell you more about me.",
-    "links": {
-      "source": "https://github.com/jsstrn/about",
-      "live": "https://www.npmjs.com/package/@jsstrn/about"
-    }
-  },
-  {
-    "id": 6,
-    "title": "Personal website",
-    "technologies": "react, styled-components",
-    "description": "The personal website of Jesstern Rays.",
-    "links": {
-      "source": "https://github.com/jsstrn/website",
-      "live": "https://jsstrn.xyz"
-    }
   }
 ]
