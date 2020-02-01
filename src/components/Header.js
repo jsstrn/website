@@ -10,6 +10,7 @@ const Container = styled.header`
 const Image = styled.img`
   width: 10rem;
   border-radius: 50%;
+  transition: filter 0.5s;
   &:hover {
     filter: grayscale(1);
   }
