@@ -1,10 +1,20 @@
 import React from "react";
 import Section from "./Section";
+import styled from "styled-components";
+
+const Block = styled.div`
+  width: 60vw;
+  padding: 0 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 4px 4px 8px #b7b7b7, -4px -4px 8px #ffffff;
+`;
 
 function About() {
   return (
     <Section heading="About" icon="👋" iconLabel="Waving Hand">
-      <div className="about">
+      <Block>
         <p>
           I believe in delivering quality software through test driven
           development and clean code. I've developed both front and backend
@@ -23,7 +33,7 @@ function About() {
           When not programming, I like board games, yoga by the beach, and
           emojis.
         </p>
-      </div>
+      </Block>
     </Section>
   );
 }
