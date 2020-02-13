@@ -11,12 +11,24 @@ const Block = styled.div`
   box-shadow: 4px 4px 8px #b7b7b7, -4px -4px 8px #ffffff;
 `;
 
+const Icon = styled.img`
+  margin: 0 0.3rem;
+  width: 16px;
+  padding: 5px;
+  border-radius: 10%;
+  box-shadow: 4px 4px 8px #b7b7b7, -4px -4px 8px #ffffff;
+  &:hover,
+  &:active {
+    box-shadow: inset 4px 4px 8px #b7b7b7, inset -4px -4px 8px #ffffff;
+  }
+`;
+
 function Project({ title, description, technologies, links }) {
   const renderIcon = (link, icon) => {
     return (
       link && (
         <a href={link}>
-          <img alt="project icon" src={icon} />
+          <Icon alt="project icon" src={icon} />
         </a>
       )
     );
@@ -26,7 +38,7 @@ function Project({ title, description, technologies, links }) {
     <Block className="project">
       <header>
         <h3>{title}</h3>
-        <div className="icons">
+        <div>
           {renderIcon(links.source, "images/fork.png")}
           {renderIcon(links.live, "images/web.png")}
         </div>

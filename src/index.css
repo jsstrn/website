@@ -46,11 +46,6 @@ h3 {
   justify-content: space-between;
 }
 
-.project header a img {
-  margin: 0 0.3rem;
-  width: 16px;
-}
-
 .project .technologies {
   font-size: 0.8rem;
 }
