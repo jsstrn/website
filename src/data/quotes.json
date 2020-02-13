@@ -1,0 +1,30 @@
+[
+  {
+    "author": "Chris Pine",
+    "quote": "Programming isn't about what you know; it's about what you can figure out."
+  },
+  {
+    "author": "Dennis Ritchie",
+    "quote": "The only way to learn a new programming language is by writing programs in it."
+  },
+  {
+    "author": "Andrew Hunt",
+    "quote": "In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials. You use a combination of science, art, and craft to determine what to do with them."
+  },
+  {
+    "author": "Harold Abelson",
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute."
+  },
+  {
+    "author": "John Woods",
+    "quote": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live"
+  },
+  {
+    "author": "Martin Fowler",
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+  },
+  {
+    "author": "Kent Beck",
+    "quote": "I'm not a great programmer; I'm just a good programmer with great habits."
+  }
+]
