@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Block = styled.div`
   width: 60vw;
-  padding: 0 1.5rem;
+  padding: 0.5rem 1.5rem;
   margin-bottom: 2rem;
   border-radius: 5px;
   background-color: whitesmoke;

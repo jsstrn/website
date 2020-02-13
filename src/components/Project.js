@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Block = styled.div`
   width: 60vw;
-  padding: 0 1.5rem;
+  padding: 0.5rem 1.5rem;
   margin-bottom: 2rem;
   border-radius: 5px;
   background-color: whitesmoke;
@@ -14,7 +14,7 @@ const Block = styled.div`
 const Icon = styled.img`
   margin: 0 0.3rem;
   width: 16px;
-  padding: 5px;
+  padding: 8px;
   border-radius: 10%;
   box-shadow: 4px 4px 8px #b7b7b7, -4px -4px 8px #ffffff;
   &:hover,
