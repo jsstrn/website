@@ -1,17 +1,11 @@
 import React from "react";
 import Project from "./Project";
 import { projects } from "../data";
+import Section from "./Section";
 
 function ProjectList() {
   return (
-    <section className="flex-col-center">
-      <h2>
-        Projects{" "}
-        <span role="img" aria-label="Building Construction">
-          🏗
-        </span>
-      </h2>
-
+    <Section heading="Projects" icon="🏗" iconLabel="Building Construction">
       {projects &&
         projects.map(p => {
           return (
@@ -24,7 +18,7 @@ function ProjectList() {
             />
           );
         })}
-    </section>
+    </Section>
   );
 }
 

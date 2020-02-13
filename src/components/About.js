@@ -1,14 +1,9 @@
 import React from "react";
+import Section from "./Section";
 
 function About() {
   return (
-    <section className="flex-col-center">
-      <h2>
-        About{" "}
-        <span role="img" aria-label="Waving Hand">
-          👋
-        </span>
-      </h2>
+    <Section heading="About" icon="👋" iconLabel="Waving Hand">
       <div className="about">
         <p>
           I believe in delivering quality software through test driven
@@ -29,7 +24,7 @@ function About() {
           emojis.
         </p>
       </div>
-    </section>
+    </Section>
   );
 }
 
