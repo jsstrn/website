@@ -19,7 +19,8 @@ const Icon = styled.img`
   transition: box-shadow 0.5s;
   box-shadow: 4px 4px 8px #b7b7b7, -4px -4px 8px #ffffff;
 
-  &:hover {
+  &:hover,
+  &:active {
     cursor: pointer;
     box-shadow: inset 4px 4px 8px #b7b7b7, inset -4px -4px 8px #ffffff;
   }
