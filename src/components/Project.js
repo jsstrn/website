@@ -7,7 +7,7 @@ const Block = styled.div`
   padding: 0.5rem 1.5rem;
   margin-bottom: 2rem;
   border-radius: 5px;
-  background-color: whitesmoke;
+  background-color: #fbfbfb;
   box-shadow: 4px 4px 8px #b7b7b7, -4px -4px 8px #ffffff;
 `;
 
