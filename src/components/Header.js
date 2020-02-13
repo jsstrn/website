@@ -11,6 +11,7 @@ const Image = styled.img`
   width: 10rem;
   border-radius: 50%;
   transition: filter 0.5s;
+  box-shadow: 8px 8px 16px #b7b7b7, -8px -8px 16px #ffffff;
   &:hover {
     filter: grayscale(1);
   }
