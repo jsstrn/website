@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Text, Quote, Attribution } from "./Text";
-import { Image } from "./Image";
-import { Container } from "./Container";
+import { Text, Quote, Attribution, Image, Container } from "./styles";
 
 function Footer() {
   const year = new Date().getFullYear();
