@@ -1,5 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
+import styled from "styled-components";
+
+const Block = styled.div`
+  width: 60vw;
+  padding: 0 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 4px 4px 8px #b7b7b7, -4px -4px 8px #ffffff;
+`;
 
 function Project({ title, description, technologies, links }) {
   const renderIcon = (link, icon) => {
@@ -13,7 +23,7 @@ function Project({ title, description, technologies, links }) {
   };
 
   return (
-    <div className="project">
+    <Block className="project">
       <header>
         <h3>{title}</h3>
         <div className="icons">
@@ -26,7 +36,7 @@ function Project({ title, description, technologies, links }) {
         <span>technologies: </span>
         {technologies}
       </p>
-    </div>
+    </Block>
   );
 }
 
