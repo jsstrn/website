@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import { Text, Quote, Attribution, Image, Container } from "./styledComponents";
 import { quotes } from "../../data";
 
+const staticImageSource = "/images/dancer.png";
+const dynamicImageSource = "/images/dancer.gif";
+
 function Footer() {
   const year = new Date().getFullYear();
-  const [image, setImageSource] = useState("/images/dancer.png");
+  const [image, setImageSource] = useState(staticImageSource);
   const [quote, setQuote] = useState("");
 
   const scrollToBottomOfPage = () => {
@@ -14,8 +17,11 @@ function Footer() {
 
   const activateEasterEgg = () => {
     setTimeout(() => {
-      setQuote(`${quotes[0].quote} ― ${quotes[0].author}`);
-      setImageSource("/images/dancer.gif");
+      const index = new Date().getDay();
+      const quote = quotes[index];
+
+      setQuote(`"${quote.quote}" ― ${quote.author}`);
+      setImageSource(dynamicImageSource);
       scrollToBottomOfPage();
     }, 0);
   };
