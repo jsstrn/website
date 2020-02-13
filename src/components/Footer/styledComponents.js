@@ -24,7 +24,6 @@ export const Attribution = styled(Text)`
 
 export const Quote = styled(Text)`
   padding: 1rem;
-  background-color: whitesmoke;
 `;
 
 export const Image = styled.img`
