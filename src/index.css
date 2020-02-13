@@ -28,28 +28,6 @@ h3 {
   align-items: center;
 }
 
-.social {
-  margin: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.social img {
-  padding: 0.5rem;
-  margin: 1rem;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background-color: whitesmoke;
-  transition: background-color 0.5s;
-}
-
-.social img:hover {
-  cursor: pointer;
-  background-color: lightgrey;
-}
-
 .main {
   margin-bottom: 2rem;
 }
